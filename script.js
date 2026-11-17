@@ -77,7 +77,7 @@ btn.addEventListener("click", () => {
                 clearInterval(countUpLoop)
                 const closeTimeout = setTimeout(() => {
                     window.location.reload()
-                }, 500);
+                }, 2000);
             };
             sCode.innerHTML = `<br>${bsodP}% complete<br><br>Stop Code: ${stpCode}`;
         }, 300);
